@@ -380,11 +380,11 @@ Main.java调用时，将通过MySqlUtil.java静态类进行数据库连接，将
 
  ![image-20200527150150120](img/image-20200527150150120.png)
 
- ![image-20200527150226937](/Users/sean/Documents/Projects/My Github/Java-Tongji-SEM/img/image-20200527150226937.png)
+ ![image-20200527150226937](img/image-20200527150226937.png)
 
-![image-20200527150244964](/Users/sean/Documents/Projects/My Github/Java-Tongji-SEM/img/image-20200527150244964.png)
+![image-20200527150244964](img/image-20200527150244964.png)
 
-![image-20200527150259447](/Users/sean/Documents/Projects/My Github/Java-Tongji-SEM/img/image-20200527150259447.png)
+![image-20200527150259447](img/image-20200527150259447.png)
 
 试卷页面通过QuizController进行控制，通过LoadPaper、LoadQuiz、LoadQuestion几种加载框架，加载阶段复习（试卷模式）、历史测试情况（包含答案解析）、普通测试。
 
@@ -404,7 +404,7 @@ QuizController将调用Components中的具体组件，比如Choose.fxml选择题
 
 不可直接调用的函数，比如mainController.java中的切换页面，不支持static调用，所以需要通过injectController进行页面指向的设置，在mainController调用时，也将调用inject函数，使其他的Controller可以调用main中的函数
 
-![image-20200527150339003](/Users/sean/Documents/Projects/My Github/Java-Tongji-SEM/img/image-20200527150339003.png)
+![image-20200527150339003](img/image-20200527150339003.png)
 
 3.5.2 页面交互事件
 
@@ -414,7 +414,7 @@ QuizController将调用Components中的具体组件，比如Choose.fxml选择题
 
 3.6 数据存储
 
-![image-20200527150358345](/Users/sean/Documents/Projects/My Github/Java-Tongji-SEM/img/image-20200527150358345.png)
+![image-20200527150358345](img/image-20200527150358345.png)
 
 为了方便进行数据的调用，在该程序中使用了较多的数据类型。以下选择部分进行说明。
 
@@ -441,7 +441,7 @@ QuizController将调用Components中的具体组件，比如Choose.fxml选择题
 | history_answer  | 用户历史测试对应的答案       |
 | module          | 主要用户加载阅读理解         |
 
-![image-20200527150426118](/Users/sean/Documents/Projects/My Github/Java-Tongji-SEM/img/image-20200527150426118.png)
+![image-20200527150426118](img/image-20200527150426118.png)
 
 3.7 其他实现
 
