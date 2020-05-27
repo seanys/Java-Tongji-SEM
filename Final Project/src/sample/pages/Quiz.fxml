@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="root" prefHeight="640.0" prefWidth="982.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.pages.QuizController">
+   <children>
+      <ScrollPane fx:id="scroll" prefHeight="593.0" prefWidth="982.0">
+         <content>
+
+         </content>
+      </ScrollPane>
+      <AnchorPane layoutX="-3.0" layoutY="595.0" prefHeight="45.0" prefWidth="982.0">
+         <JFXButton fx:id="bottom_button" layoutX="344.0" layoutY="9.0" mnemonicParsing="false" onAction="#submitAnswer" prefHeight="27.0" prefWidth="294.0" style="-fx-text-fill:WHITE;-fx-background-color:#5264AE;-fx-font-size:14px;-jfx-button-type: RAISED;" text="提交试卷" />
+      </AnchorPane>
+   </children>
+</AnchorPane>

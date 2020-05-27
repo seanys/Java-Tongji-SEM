@@ -1,0 +1,5 @@
+.custom-check-box-all-colored {
+    -jfx-checked-color: #CDEBFA;
+    -jfx-unchecked-color: #CDEBFA;
+    -fx-text-fill: #CDEBFA;
+}

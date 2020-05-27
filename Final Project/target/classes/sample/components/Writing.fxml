@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Label?>
+<AnchorPane prefWidth="900" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.components.WritingController">
+    <children>
+        <VBox layoutY="20" layoutX="20.0" spacing="10">
+            <VBox fx:id="root">
+                <children>
+
+                </children>
+            </VBox>
+            <TextArea fx:id="writingTextArea" layoutX="14.0" layoutY="101.0" prefHeight="310.0" />
+            <VBox fx:id="attachment" prefWidth="900.0">
+            </VBox>
+        </VBox>
+    </children>
+</AnchorPane>

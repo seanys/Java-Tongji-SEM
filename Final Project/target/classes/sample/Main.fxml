@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXListView?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<AnchorPane prefHeight="640.0" prefWidth="984.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainController">
+   <children>
+      <!--      左侧的选择-->
+      <AnchorPane fx:id="leftAnchor" prefHeight="640.0" prefWidth="196.0">
+         <JFXListView fx:id="SideList" prefHeight="999.0" prefWidth="174.0">
+            <Label onMouseClicked="#navUserAchieve" prefHeight="19.0" prefWidth="161.0">
+               首页
+               <graphic>
+                  <StackPane styleClass="custom-jfx-list-view-icon-container">
+                     <FontAwesomeIconView glyphName="HOME" size="1.5em" styleClass="custom-jfx-list-view-icon" />
+                  </StackPane>
+               </graphic>
+            </Label>
+            <Label maxHeight="19.0" onMouseClicked="#navHistory" prefHeight="19.0" prefWidth="158.0">
+               历史
+               <graphic>
+                  <StackPane styleClass="custom-jfx-list-view-icon-container">
+                     <FontAwesomeIconView glyphName="FILE" size="1.5em" styleClass="custom-jfx-list-view-icon" text="" wrappingWidth="14.428571701049805" />
+                  </StackPane>
+               </graphic>
+            </Label>
+            <Label maxHeight="38.0" onMouseClicked="#navSetting" prefHeight="19.0" prefWidth="157.0">
+               设置
+               <graphic>
+                  <StackPane styleClass="custom-jfx-list-view-icon-container">
+                     <FontAwesomeIconView glyphName="COG" size="1.5em" styleClass="custom-jfx-list-view-icon" />
+                  </StackPane>
+               </graphic>
+            </Label>
+         </JFXListView>
+      </AnchorPane>
+<!--      右侧内容-->
+      <AnchorPane fx:id="rightAnchor" layoutX="202.0" prefHeight="640.0" prefWidth="785.0" />
+   </children>
+</AnchorPane>

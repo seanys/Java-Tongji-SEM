@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.sean.D06T01">
+  <grid id="27dc6" binding="panelMain" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="f04a4" class="javax.swing.JButton" binding="ConfirmCreate">
+        <constraints border-constraint="South"/>
+        <properties>
+          <text value="确认生成"/>
+        </properties>
+      </component>
+      <grid id="609bf" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="93ef0" class="javax.swing.JTextField" binding="Name">
+            <constraints border-constraint="Center"/>
+            <properties/>
+          </component>
+          <component id="850c9" class="javax.swing.JLabel">
+            <constraints border-constraint="West"/>
+            <properties>
+              <text value="字段名称"/>
+            </properties>
+          </component>
+          <grid id="af5d" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="South"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="fb58" class="javax.swing.JTextField" binding="Width">
+                <constraints border-constraint="Center"/>
+                <properties/>
+              </component>
+              <component id="fd0a4" class="javax.swing.JLabel">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <text value="字段宽度"/>
+                </properties>
+              </component>
+              <grid id="5577e" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="South"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="7059d" class="javax.swing.JLabel">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <text value="标签内容"/>
+                    </properties>
+                  </component>
+                  <component id="11e7c" class="javax.swing.JComboBox" binding="Tag">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <model>
+                        <item value="textarea"/>
+                        <item value="label"/>
+                        <item value="button"/>
+                      </model>
+                    </properties>
+                  </component>
+                  <grid id="33b68" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="South"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="f4dbc" class="javax.swing.JTextField" binding="Content">
+                        <constraints border-constraint="Center"/>
+                        <properties/>
+                      </component>
+                      <component id="41402" class="javax.swing.JLabel">
+                        <constraints border-constraint="West"/>
+                        <properties>
+                          <text value="文本标签"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
